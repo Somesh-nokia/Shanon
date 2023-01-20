@@ -17,7 +17,8 @@ public class Scroll_up_down {
            JavascriptExecutor jre =(JavascriptExecutor)somesh;
            jre.executeScript("window.scrollBy(0,8000);");
            Thread.sleep(2000);
-          jre.executeScript("window.scrollBy(0,-7500);");
+           jre.executeScript("window.scrollBy(0,-7500);");
+                      System.out.println("some changes from Team lead ");
 
 
 
